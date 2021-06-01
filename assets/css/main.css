@@ -2195,8 +2195,8 @@ input, select, textarea {
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
-				background-size: 128px 128px, auto;
+				background-image: url("../../images/0yoyo.jpg"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+			    background-size: 100%;
 			}
 
 			.panel > *.color1 {
@@ -2412,7 +2412,7 @@ input, select, textarea {
 		}
 
 		.panel .span-2-25 {
-			width: 22.5rem;
+			width: auto;
 		}
 
 		.panel .span-2-5 {
@@ -2426,6 +2426,9 @@ input, select, textarea {
 		.panel .span-3 {
 			width: 30rem;
 		}
+		.panel .span-3-2 {
+			width: 32rem;
+		}
 
 		.panel .span-3-25 {
 			width: 32.5rem;
@@ -2435,8 +2438,9 @@ input, select, textarea {
 			width: 35rem;
 		}
 
+        /*0yoyo panel 宽*/
 		.panel .span-3-75 {
-			width: 37.5rem;
+			width: /*37.5rem*/32rem;
 		}
 
 		.panel .span-4 {
